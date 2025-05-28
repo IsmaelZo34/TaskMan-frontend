@@ -1,7 +1,7 @@
-const API_URL = "https://taskman-backend.railway.app/api";
+const API_URL = "https://taskman.railway.app/api";
 let token = null;
 export function setToken(t){
-    token = t;
+    token = t;  ààà
 }
 export async function login(email, password){
     const res = await fetch(`${API_URL}/login`, {
