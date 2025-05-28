@@ -15,7 +15,7 @@ export default function Register({ onRegister, goToLogin}){
             await register(email , password, password);
             onRegister();  
         } catch (err){
-            setError("une erreur s'est produite");
+            setError("Une erreur est survenue lors de votre inscription");
         }
 
     };
