@@ -1,4 +1,4 @@
-const API_URL = "http://taskman.railway.app/api";
+const API_URL = "http://taskman-backend-production.up.railway.app/api";
 let token = null;
 export function setToken(t){
     token = t;
